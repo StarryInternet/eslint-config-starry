@@ -16,7 +16,7 @@ module.exports = {
 
     'indent': [ 2, 2, { 'SwitchCase': 1 } ],
 
-    'quotes': [ 2, 'single' ],
+    'quotes': [ 2, 'single', { allowTemplateLiterals: true } ],
 
     'semi': [ 2, 'always' ],
     'comma-dangle': [ 2, 'never' ],
