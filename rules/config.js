@@ -14,7 +14,7 @@ module.exports = {
     'no-var': 2,
     'one-var': [ 2, 'never' ],
 
-    'indent': [ 2, 2, { 'SwitchCase': 1 } ],
+    'indent': [ 2, 2, { 'SwitchCase': 1, 'MemberExpression': 0 } ],
 
     'quotes': [ 2, 'single', { allowTemplateLiterals: true } ],
 
