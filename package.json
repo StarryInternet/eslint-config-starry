@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/StarryInternet/eslint-config-starry/issues"
   },
-  "homepage": "https://github.com/StarryInternet/eslint-config-starry"
+  "homepage": "https://github.com/StarryInternet/eslint-config-starry",
+  "dependencies": {
+    "eslint-plugin-starry": "4.0.0"
+  }
 }
