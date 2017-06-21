@@ -39,6 +39,7 @@ module.exports = {
     'keyword-spacing': [ 2, { before: true, after: true } ],
     'starry/space-in-parens': [ 2, 'always', { 'exceptions': [ '{}', '[]', 'empty' ] } ],
     'max-len': [ 2, 80, 2 ],
-    'space-infix-ops': [ 2 ]
+    'space-infix-ops': [ 2 ],
+    'starry/aligned-requires': [ 2, 'always' ]
   }
 }
