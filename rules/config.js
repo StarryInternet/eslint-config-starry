@@ -21,7 +21,7 @@ module.exports = {
     'no-var': 2,
     'one-var': [ 2, 'never' ],
     'indent': [ 2, 2, { 'SwitchCase': 1, 'MemberExpression': 0 } ],
-    'quotes': [ 2, 'single' ],
+    'quotes': [ 2, 'single', { allowTemplateLiterals: true } ],
     'semi': [ 2, 'always' ],
     'comma-dangle': [ 2, 'never' ],
     'array-bracket-spacing': [ 2, 'always' ],
@@ -42,6 +42,8 @@ module.exports = {
     'keyword-spacing': [ 2, { before: true, after: true } ],
     'starry/space-in-parens': [ 2, 'always', { 'exceptions': [ '{}', '[]', 'empty' ] } ],
     'max-len': [ 2, 80, 2 ],
-    'space-infix-ops': [ 2 ]
+    'space-infix-ops': [ 2 ],
+    'starry/aligned-requires': [ 2, 'always' ],
+    'object-shorthand': [ 2, 'always' ],
   }
 };
