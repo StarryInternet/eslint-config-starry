@@ -8,6 +8,9 @@ module.exports = {
   'plugins': [
     'starry'
   ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
   'rules': {
     'no-undef': 2,
     'block-scoped-var': 2,
