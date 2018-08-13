@@ -19,7 +19,7 @@ module.exports = {
     'curly': 2,
     'no-delete-var': 2,
     'no-shadow-restricted-names': 2,
-    'no-unused-vars': 2,
+    'no-unused-vars': [ 2, { "ignoreRestSiblings": true } ],
     'no-use-before-define': [ 2, 'nofunc' ],
     'no-var': 2,
     'one-var': [ 2, 'never' ],
