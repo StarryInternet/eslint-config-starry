@@ -48,5 +48,6 @@ module.exports = {
     'space-infix-ops': [ 2 ],
     'starry/aligned-requires': [ 2, 'always' ],
     'object-shorthand': [ 2, 'always' ],
+    'template-curly-spacing': [ 2, 'always' ]
   }
 };
