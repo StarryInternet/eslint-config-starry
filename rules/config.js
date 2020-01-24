@@ -6,8 +6,7 @@ module.exports = {
     'es6': true
   },
   'plugins': [
-    'starry',
-    'align-assignments'
+    'starry'
   ],
   "parserOptions": {
     "ecmaVersion": 2018
@@ -33,7 +32,7 @@ module.exports = {
     'brace-style': [ 2, '1tbs', { 'allowSingleLine': true } ],
     'comma-spacing': [ 2, { 'before': false, 'after': true } ],
     'comma-style': [ 2, 'last' ],
-    'computed-property-spacing': [ 2, 'always', { "enforceForClassMembers": true } ],
+    'starry/computed-property-spacing': [ 2, 'always' ],
     'eol-last': [ 2, 'unix' ],
     'key-spacing': [ 2, { 'beforeColon' : false, 'afterColon': true, mode: 'minimum' } ],
     'linebreak-style': [ 2, 'unix' ],
@@ -47,7 +46,7 @@ module.exports = {
     'starry/space-in-parens': [ 2, 'always', { 'exceptions': [ '{}', '[]', 'empty' ] } ],
     'max-len': [ 2, 80, 2 ],
     'space-infix-ops': [ 2 ],
-    'align-assignments/align-assignments': [ 2, { 'requiresOnly': true } ],
+    'starry/aligned-requires': [ 2, 'always' ],
     'object-shorthand': [ 2, 'always' ],
     'template-curly-spacing': [ 2, 'always' ],
     'space-unary-ops': [ 2, { 'words': true, 'nonwords': false } ],
