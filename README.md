@@ -8,7 +8,7 @@ instead of `var`.
 
 ### Usage
 
-`npm install eslint-config-starry eslint-plugin-starry --save-dev`
+`npm install @starryinternet/eslint-config-starry @starryinternet/eslint-plugin-starry --save-dev`
 
 Then drop an `.eslintrc` file in your project root that looks like this:
 
