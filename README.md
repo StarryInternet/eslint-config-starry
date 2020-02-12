@@ -15,6 +15,6 @@ Then drop an `.eslintrc` file in your project root that looks like this:
 ```json
 {
   "root": true,
-  "extends": "starry"
+  "extends": "@starryinternet/starry"
 }
 ```

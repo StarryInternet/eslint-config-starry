@@ -6,7 +6,7 @@ module.exports = {
     'es6': true
   },
   'plugins': [
-    'starry'
+    '@starryinternet/starry'
   ],
   'parserOptions': {
     'ecmaVersion': 2019,
@@ -35,7 +35,7 @@ module.exports = {
     'brace-style': [ 2, '1tbs', { 'allowSingleLine': true } ],
     'comma-spacing': [ 2, { 'before': false, 'after': true } ],
     'comma-style': [ 2, 'last' ],
-    'starry/computed-property-spacing': [ 2, 'always' ],
+    '@starryinternet/starry/computed-property-spacing': [ 2, 'always' ],
     'eol-last': [ 2, 'unix' ],
     'key-spacing': [ 2, { 'beforeColon' : false, 'afterColon': true, 'mode': 'minimum' } ],
     'linebreak-style': [ 2, 'unix' ],
@@ -46,10 +46,10 @@ module.exports = {
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'never' ],
     'keyword-spacing': [ 2, { 'before': true, 'after': true } ],
-    'starry/space-in-parens': [ 2, 'always', { 'exceptions': [ '{}', '[]', 'empty' ] } ],
+    '@starryinternet/starry/space-in-parens': [ 2, 'always', { 'exceptions': [ '{}', '[]', 'empty' ] } ],
     'max-len': [ 2, 80, 2 ],
     'space-infix-ops': [ 2 ],
-    'starry/aligned-requires': [ 2, 'always' ],
+    '@starryinternet/starry/aligned-requires': [ 2, 'always' ],
     'object-shorthand': [ 2, 'always' ],
     'template-curly-spacing': [ 2, 'always' ],
     'space-unary-ops': [ 2, { 'words': true, 'nonwords': false } ],
