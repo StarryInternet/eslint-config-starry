@@ -55,6 +55,7 @@ module.exports = {
     'space-unary-ops': [ 2, { 'words': true, 'nonwords': false } ],
     'prefer-const': 2,
     'prefer-arrow-callback': 2,
-    'strict': [ 2, 'never' ]
+    'strict': [ 2, 'never' ],
+    'no-const-assign': 2
   }
 };
