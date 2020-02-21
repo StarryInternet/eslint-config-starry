@@ -1,6 +1,6 @@
 {
   "name": "@starryinternet/eslint-config-starry",
-  "version": "9.1.1",
+  "version": "9.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
