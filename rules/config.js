@@ -6,7 +6,8 @@ module.exports = {
     'es6': true
   },
   'plugins': [
-    '@starryinternet/starry'
+    '@starryinternet/starry',
+    'node'
   ],
   'parserOptions': {
     'ecmaVersion': 2019,
@@ -56,6 +57,14 @@ module.exports = {
     'prefer-const': 2,
     'prefer-arrow-callback': 2,
     'strict': [ 2, 'never' ],
-    'no-const-assign': 2
+    'no-const-assign': 2,
+
+    // Node
+    'node/no-exports-assign': 'error',
+    'node/no-extraneous-require': 'error',
+    'node/no-missing-require': 'error',
+    'node/process-exit-as-throw': 'error',
+    'node/no-deprecated-api': 'error',
+    'node/shebang': 'error'
   }
 };
