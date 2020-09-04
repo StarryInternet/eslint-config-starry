@@ -1,24 +1,25 @@
 {
   "name": "@starryinternet/eslint-config-starry",
   "version": "9.2.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Starry Internet",
+  "description": "Starry JavaScript Styleguide for ESLint",
+  "homepage": "https://github.com/StarryInternet/eslint-config-starry",
+  "bugs": {
+    "url": "https://github.com/StarryInternet/eslint-config-starry/issues"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/StarryInternet/eslint-config-starry"
   },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/StarryInternet/eslint-config-starry/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/StarryInternet/eslint-config-starry",
   "dependencies": {
-    "@starryinternet/eslint-plugin-starry": "~7.3.2"
+    "@starryinternet/eslint-plugin-starry": "~7.3.8",
+    "eslint-plugin-node": "11.1.0"
   },
   "peerDependencies": {
-    "eslint": ">= 6.8.0"
+    "eslint": ">= 7.0.0"
   }
 }
