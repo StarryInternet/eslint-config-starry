@@ -1,6 +1,6 @@
 {
   "name": "@starryinternet/eslint-config-starry",
-  "version": "9.2.0",
+  "version": "10.0.0",
   "author": "Starry Internet",
   "description": "Starry JavaScript Styleguide for ESLint",
   "homepage": "https://github.com/StarryInternet/eslint-config-starry",
