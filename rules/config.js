@@ -46,6 +46,7 @@ module.exports = {
     'semi-spacing': [ 2, { 'before': false, 'after': true } ],
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'never' ],
+    'new-parens': [ 2, 'never' ],
     'keyword-spacing': [ 2, { 'before': true, 'after': true } ],
     '@starryinternet/starry/space-in-parens': [ 2, 'always', { 'exceptions': [ '{}', '[]', 'empty' ] } ],
     'max-len': [ 2, 80, 2 ],
