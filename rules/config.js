@@ -10,7 +10,7 @@ module.exports = {
     'node'
   ],
   'parserOptions': {
-    'ecmaVersion': 2021,
+    'ecmaVersion': 2022,
     'ecmaFeatures': {
       'impliedStrict': true
     }
