@@ -13,7 +13,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint --config index.js .",
+    "fix": "eslint --config index.js --fix ."
   },
   "dependencies": {
     "@starryinternet/eslint-plugin-starry": "^8.0.0",
