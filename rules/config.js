@@ -60,6 +60,7 @@ module.exports = {
     'prefer-arrow-callback': 2,
     'strict': [ 2, 'never' ],
     'no-const-assign': 2,
+    'quote-props': [ 2, 'consistent-as-needed' ],
 
     // Node
     'node/no-exports-assign': 'error',
