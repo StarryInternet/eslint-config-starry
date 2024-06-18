@@ -1,6 +1,6 @@
 {
   "name": "@starryinternet/eslint-config-starry",
-  "version": "10.5.0",
+  "version": "11.0.0",
   "author": "Starry Internet",
   "description": "Starry JavaScript Styleguide for ESLint",
   "homepage": "https://github.com/StarryInternet/eslint-config-starry",
@@ -17,10 +17,15 @@
     "fix": "eslint --config index.js --fix ."
   },
   "dependencies": {
-    "@starryinternet/eslint-plugin-starry": "^8.0.0",
-    "eslint-plugin-node": "11.1.0"
+    "@eslint/compat": "^1.1.0",
+    "@starryinternet/eslint-plugin-starry": "^9.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "globals": "^15.6.0"
   },
   "peerDependencies": {
-    "eslint": ">= 8.0.0"
+    "eslint": ">= 9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0"
   }
 }

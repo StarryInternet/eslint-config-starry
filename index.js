@@ -1,5 +1,1 @@
-module.exports = {
-  extends: [
-    './rules/config'
-  ].map( require.resolve )
-};
+module.exports = require('./rules/config');
