@@ -1,6 +1,6 @@
 {
   "name": "@starryinternet/eslint-config-starry",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "author": "Starry Internet",
   "description": "Starry JavaScript Styleguide for ESLint",
   "homepage": "https://github.com/StarryInternet/eslint-config-starry",
@@ -13,19 +13,23 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "eslint --config index.js .",
-    "fix": "eslint --config index.js --fix ."
+    "mocha": "NODE_ENV=test mocha test/tests --recursive --exit",
+    "nyc": "nyc npm run mocha",
+    "test": "npm run nyc"
   },
   "dependencies": {
-    "@eslint/compat": "^1.1.0",
-    "@starryinternet/eslint-plugin-starry": "^9.0.0",
+    "@eslint/compat": "2.0.2",
+    "@starryinternet/eslint-plugin-starry": "10.0.0",
     "eslint-plugin-node": "11.1.0",
-    "globals": "^15.6.0"
+    "globals": "17.3.0"
   },
   "peerDependencies": {
-    "eslint": ">= 9.0.0"
+    "eslint": ">=10.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.5.0"
+    "chai": "6.2.2",
+    "eslint": "10.0.0",
+    "mocha": "10.7.3",
+    "nyc": "17.1.0"
   }
 }
